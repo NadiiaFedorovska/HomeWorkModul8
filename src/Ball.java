@@ -4,9 +4,9 @@ public class Ball implements Shape{
         System.out.println("This is Ball");
     }
 
-
     @Override
-    public String nameOfTheFigure() {
-        return"Ball{}";
+    public String getName() {
+        return "Ball";
     }
+
 }

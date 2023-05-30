@@ -4,9 +4,8 @@ public class Quad implements Shape{
         System.out.println("This is Quad");
     }
 
-
     @Override
-    public String nameOfTheFigure() {
-        return "Quad{}";
+    public String getName() {
+        return "Quad";
     }
 }

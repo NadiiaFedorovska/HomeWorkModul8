@@ -4,9 +4,8 @@ public class Triangle implements Shape{
         System.out.println("This is Triangle");
     }
 
-
     @Override
-    public String nameOfTheFigure() {
-        return "Triangle{}";
+    public String getName() {
+        return "Triangle";
     }
 }

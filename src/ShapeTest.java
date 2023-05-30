@@ -1,4 +1,9 @@
 public class ShapeTest {
+
+    public void printShapeName(Shape shape) {
+        System.out.println(shape.getName());
+    }
+
     public static void main(String[] args) {
         Shape circle = new Circle();
         Shape ball = new Ball();
@@ -6,10 +11,14 @@ public class ShapeTest {
         Shape quad = new Quad();
         Shape triangle = new Triangle();
 
-        System.out.println(circle.nameOfTheFigure());
-        System.out.println(ball.nameOfTheFigure());
-        System.out.println(cube.nameOfTheFigure());
-        System.out.println(quad.nameOfTheFigure());
-        System.out.println(triangle.nameOfTheFigure());
+        System.out.println("-----------");
+
+        ShapeTest shapeTest = new ShapeTest();
+        shapeTest.printShapeName(circle);
+        shapeTest.printShapeName(ball);
+        shapeTest.printShapeName(cube);
+        shapeTest.printShapeName(quad);
+        shapeTest.printShapeName(triangle);
+
     }
 }

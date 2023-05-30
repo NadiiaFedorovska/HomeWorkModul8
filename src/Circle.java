@@ -3,9 +3,8 @@ public class Circle implements Shape{
         System.out.println("This is Circle");
     }
 
-
     @Override
-    public String nameOfTheFigure() {
-        return "Circle{}";
+    public String getName() {
+        return "Circle";
     }
 }

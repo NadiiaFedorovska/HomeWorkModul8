@@ -4,9 +4,8 @@ public class Cube implements Shape{
         System.out.println("This is Cube");
     }
 
-
     @Override
-    public String nameOfTheFigure() {
-        return "Cube{}";
+    public String getName() {
+        return "Cube";
     }
 }
